@@ -1,0 +1,23 @@
+:host {
+    --primary-color: #dc3545;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+}
+
+section {
+    border: 1px solid #333;
+    padding: 1rem;
+
+    header {
+        margin-bottom: 1rem;
+    }
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: .5rem;
+}
