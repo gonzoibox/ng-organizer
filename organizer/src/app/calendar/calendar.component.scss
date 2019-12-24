@@ -1,3 +1,9 @@
+:host {
+    --primary-color: #dc3545;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    }
+
 table {
     width: 100%;
     margin-bottom: 1rem;
@@ -23,7 +29,7 @@ table {
     }
 
     .active {
-        color: var(--pimary-color);
+        color: var(--primary-color);
         font-weight: bold;
     }
 
